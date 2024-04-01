@@ -1,0 +1,10 @@
+GRPC:
+  Addr: "127.0.0.1:8888"
+
+DB:
+  Addr: "127.0.0.1:5432"
+  User: "postgres"
+  Password: "Test_1tesT"
+  Database: "notis"
+
+LogLvl: 0

@@ -1,0 +1,14 @@
+<Package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Name>topics</Name>
+    <Entities>
+        <Entity Name="Topics" Namespace="topics" Table="topics">
+            <Attributes>
+                <Attribute Name="ID" DBName="id" DBType="int8" GoType="int64" PK="true" Nullable="Yes" Addable="true" Updatable="true" Min="0" Max="0"></Attribute>
+                <Attribute Name="UserID" DBName="userid" DBType="int8" GoType="int64" PK="true" Nullable="Yes" Addable="true" Updatable="true" Min="0" Max="0"></Attribute>
+                <Attribute Name="Name" DBName="name" DBType="text" GoType="string" PK="true" Nullable="No" Addable="true" Updatable="true" Min="0" Max="0"></Attribute>
+                <Attribute Name="SubID" DBName="subid" DBType="int8" GoType="int64" PK="false" Nullable="Yes" Addable="true" Updatable="true" Min="0" Max="0"></Attribute>
+            </Attributes>
+        </Entity>
+    </Entities>
+</Package>
+
